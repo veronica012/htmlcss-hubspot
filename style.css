@@ -16,6 +16,7 @@
 #header-top {
     height: 100px;
     font-family: 'Source Sans Pro', sans-serif;
+    background-color: #F5F5F5;
 }
 #header-top-left {
     width: 30%;
@@ -74,23 +75,72 @@
 
 #header-bottom {
     height: 100px;
-    background-color: lightgreen;
+
+    border-top: 1px solid rgb(51, 71, 91);
 }
 
 #header-bottom-left {
-    width: 40%;
+    width: 20%;
     height: 100%;
-    background-color: pink;
     float: left;
 }
+#logo-hubspot {
+    margin-top: 30px;
 
-#header-bottom-right {
-    width: 40%;
-    height: 100%;
-    background-color: pink;
+}
+.header-bottom-right {
+    width: 50%;
     float: right;
 }
+.nav ul li {
+    list-style-type: none;
+    display: inline-block;
+    color: rgb(51, 71, 91);
+    font-size: 20px;
+    font-family: 'Source Sans Pro', sans-serif;
+    margin-right: 20px;
+    margin-top: 30px;
+}
+.nav ul li a::after {
+        content: '\25BC';
+        color: #7c98b6;
+}
+
 #features {
+    background-color: #FFEFD5;
+}
+#jumbo {
+    width: 650px;
     height: 500px;
-    background-color: orange;
+    background-color: white;
+    position: relative;
+}
+.jumbo-content {
+    width: 50%;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+.jumbo-content h1 {
+    color: rgb(51, 71, 91);
+    font-size: 50px;
+    margin-bottom: 40px;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+.jumbo-content p {
+    color: rgb(51, 71, 91);
+    font-size: 20px;
+    margin-bottom: 30px;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+
+.jumbo-content .btn-primary {
+    padding: 30px;
+}
+
+#get-started {
+    color: rgb(51, 71, 91);
+        font-family: 'Source Sans Pro', sans-serif;
+        font-size: 15px;
 }
