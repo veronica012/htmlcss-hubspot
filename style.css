@@ -7,25 +7,69 @@
     width: 1080px;
     margin: auto;
     height: 100%;
-    background-color: grey;
+    background-color: grey:
+    font-family: 'Source Sans Pro', sans-serif;
+    color: rgb(51, 71, 91);
 
 }
 
 #header-top {
     height: 100px;
-    background-color: lightblue;
+    font-family: 'Source Sans Pro', sans-serif;
 }
 #header-top-left {
     width: 30%;
     height: 100%;
-    background-color: coral;
     float: left;
+    color: rgb(51, 71, 91);
+    font-size: 20px;
+    font-family: 'Source Sans Pro', sans-serif;
+
+}
+.fa-globe-americas {
+    font-size: 20px;
+    color: rgb(51, 71, 91);
+    margin-top: 25px;
+    margin-right: 10px;
+
+}
+
+#header-top-left a:after {
+    content: '\25BC';
+    color: #7c98b6;
+
+
 }
 #header-top-right {
     width:30%;
     height: 100%;
-    background-color: coral;
     float: right;
+}
+.fa-search {
+    color: rgb(51, 71, 91);
+    font-size: 20px;
+    margin-top: 25px;
+    margin-right: 10px;
+
+}
+
+.btn {
+    padding: 15px;
+    border-radius: 5px;
+    border: 1px solid #ff7a59;
+    color:#ff7a59 ;
+    text-decoration: none;
+    font-size: 14px;
+    margin-right: 20px;
+
+}
+.btn:hover {
+    opacity: 0.3;
+}
+
+.btn-primary {
+    background-color: #ff7a59;
+    color: white;
 }
 
 #header-bottom {
