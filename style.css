@@ -35,6 +35,10 @@
 
 }
 
+#header-top-left a:link {
+    text-decoration: none;
+}
+
 #header-top-left a:after {
     content: '\25BC';
     color: #7c98b6;
@@ -88,8 +92,8 @@
     margin-top: 30px;
 
 }
-.header-bottom-right {
-    width: 50%;
+#header-bottom-right {
+    width: 60%;
     float: right;
 }
 .nav ul li {
@@ -100,6 +104,9 @@
     font-family: 'Source Sans Pro', sans-serif;
     margin-right: 20px;
     margin-top: 30px;
+}
+.nav ul li a:link {
+    text-decoration: none;
 }
 .nav ul li a::after {
         content: '\25BC';
