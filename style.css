@@ -16,7 +16,7 @@
 #header-top {
     height: 100px;
     font-family: 'Source Sans Pro', sans-serif;
-    background-color: #F5F5F5;
+    background-color: #f5f8fa;
 }
 #header-top-left {
     width: 30%;
@@ -37,6 +37,7 @@
 
 #header-top-left a:link {
     text-decoration: none;
+    padding: 10px;
 }
 
 #header-top-left a:after {
@@ -107,6 +108,7 @@
 }
 .nav ul li a:link {
     text-decoration: none;
+    padding: 10px;
 
 }
 .nav ul li a::after {
@@ -150,4 +152,80 @@
     color: rgb(51, 71, 91);
         font-family: 'Source Sans Pro', sans-serif;
         font-size: 15px;
+}
+#aquamarine {
+    height: 100px;
+    background-color: #ccffee;
+    border-top: 3px solid #33475b;
+    border-bottom: 2px solid #33475b;
+}
+#wrapper {
+    background-color: #f5f8fa;
+    height: 700px;
+}
+#powerful {
+
+    width: 300px;
+    float: left;
+    margin-top: 30px;
+}
+#powerful h2 {
+    font-family: 'Source Sans Pro', sans-serif;
+    margin-bottom: 20px;
+
+}
+#powerful p {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 15px;
+}
+#free-crm {
+    width: 600px;
+
+    background-color: white;
+    font-family: 'Source Sans Pro', sans-serif;
+    color: rgb(51, 71, 91);
+    float: right;
+    margin-top: 30px;
+
+}
+#free-crm h2 {
+    margin-bottom: 20px;
+        font-family: 'Source Sans Pro', sans-serif;
+
+}
+
+.fa-dot-circle {
+    margin-left: 30px;
+}
+#free-crm p {
+    margin-left: 30px;
+}
+#free-crm h4 {
+    text-transform: uppercase;
+    margin-left: 30px;
+}
+#pop-feat li {
+    display: inline-block;
+    margin-left: 20px;
+}
+.fa-check-circle {
+    color: #ff7a59;
+}
+.white-box {
+    background-color: white;
+    width: 200px;
+    margin-top: 30px;
+    margin-right: 30px;
+    font-family: 'Source Sans Pro', sans-serif;
+    text-align: center;
+    float: left;
+
+}
+
+.white-box p {
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+.white-box ul li {
+    list-style-type: none;
 }
