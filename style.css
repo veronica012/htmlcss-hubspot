@@ -10,7 +10,6 @@
     background-color: grey:
     font-family: 'Source Sans Pro', sans-serif;
     color: rgb(51, 71, 91);
-
 }
 .container::after {
   content: "";
@@ -26,7 +25,9 @@
     border-bottom: 1px solid rgb(51, 71, 91);
     z-index: 10;
 }
-
+#header-top a {
+    color: rgb(51, 71, 91);
+}
 #header-top-left {
     width: 30%;
     height: 100%;
@@ -41,14 +42,18 @@
     margin-top: 25px;
     margin-right: 10px;
 }
-
-#header-top-left a:link {
+#header-top-left a {
     text-decoration: none;
     padding: 10px;
 }
-#header-top-left a:after {
+#header-top-left:not(:nth-child(2)) a:after {
     content: '\25BC';
     color: #7c98b6;
+}
+
+#header-top-left #icon-globe {
+    border-right: 2px solid #cbd6e2;
+    padding: 10px;
 }
 #header-top-right {
     height: 100%;
@@ -81,6 +86,9 @@
     height: 100px;
     padding: 100px;
 
+}
+#header-bottom a {
+    color: rgb(51, 71, 91);
 }
 #header-bottom-left {
     width: 20%;
@@ -207,6 +215,13 @@ background-image: linear-gradient(to top right, #fef8f0, #fff3ee, #fff1ee);
     float: left;
     padding: 30px;
 }
+.white-box:first-child {
+    margin-right: 60px;
+
+}
+.white-box:last-child {
+    float: right;
+}
 
 .white-box p {
     margin-top: 20px;
@@ -218,12 +233,6 @@ background-image: linear-gradient(to top right, #fef8f0, #fff3ee, #fff1ee);
     margin-bottom: 20px;
 }
 
-.white-box:nth-child(2) {
-    margin-left: 58px;
-}
-.white-box {
-    float: right;
-}
 
 #titolo {
     height: 400px;
