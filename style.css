@@ -110,8 +110,6 @@
         content: '\25BC';
         color: #7c98b6;
 }
-
-
 #features {
 background-image: linear-gradient(to top right, #fef8f0, #fff3ee, #fff1ee);
 }
@@ -223,7 +221,7 @@ background-image: linear-gradient(to top right, #fef8f0, #fff3ee, #fff1ee);
 .white-box:nth-child(2) {
     margin-left: 58px;
 }
-.white-box:last-child {
+.white-box {
     float: right;
 }
 
@@ -269,6 +267,7 @@ font-size: 40px;
 .community-board-bottom .container {
     width: 800px;
     margin: auto;
+    border-top: 1px solid white;
 }
 .community-board {
     width: 200px;
@@ -278,8 +277,12 @@ font-size: 40px;
     text-align: center;
     font-family: 'Source Sans Pro', sans-serif;
     padding: 10px;
-    border-bottom: 1px solid white;
+    border-right: 1px solid white;
 }
+#community-board .community-board:not(:nth-of-type(4)) {
+    border-right: 1px solid white;
+}
+
 .community-board h1 {
     font-size: 80px;
 }
@@ -307,9 +310,6 @@ font-size: 40px;
     background-color: orange;
     float: right;
 }
-
-
-
 .customers-bottom {
     width: 100%;
     height: 400px;
@@ -340,4 +340,57 @@ font-size: 40px;
     background-image: url("https://cdn2.hubspot.net/hubfs/53/assets/hubspot.com/_style-guide/sword-sprocket/Variation-1@2x.png");
     background-size: contain;
     background-repeat: no-repeat;
+}
+#blocco-blu {
+    width: 100%;
+    height: 700px;
+    background-color: #33475b;
+    padding-top: 100px;
+}
+.footer-nav {
+    width: 250px;
+    height: 300px;
+    float: left;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+.footer-nav ul {
+    list-style-type: none
+}
+.footer-nav ul li {
+    color: #cbd6e2;
+    font-size: 20px;
+    padding: 5px 0 5px 0;
+    text-decoration: none;
+
+}
+.footer-nav h3 {
+    color: #fff;
+    margin-bottom: 10px;
+}
+#blocco-blu .container {
+    width: 1000px;
+    margin: auto;
+
+}
+.footer-nav ul li a:link {
+    text-decoration: none;
+    text-decoration-color: #cbd6e2;
+}
+.footer-nav li a:hover {
+    color: lightblue;
+}
+#free {
+    color: white;
+    font-size: 15px;
+}
+#blocco-blu .btn {
+    background-color: white;
+
+    color: rgb(51, 71, 91);
+    font-family: 'Source Sans Pro', sans-serif;
+}
+#FB a::after {
+content: '';
+color: #cbd6e2;
+
 }
