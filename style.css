@@ -342,9 +342,10 @@ font-size: 40px;
 }
 #blocco-blu {
     width: 100%;
-    height: 700px;
     background-color: #33475b;
     padding-top: 100px;
+    padding-bottom: 50px;
+
 }
 .footer-nav {
     width: 250px;
@@ -380,21 +381,89 @@ font-size: 40px;
 #free {
     color: white;
     font-size: 15px;
-    padding: 15px;
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
 #blocco-blu .btn {
     background-color: white;
-
     color: rgb(51, 71, 91);
     font-family: 'Source Sans Pro', sans-serif;
 }
 .social-media {
     display: inline-block;
-
 }
 #blocco-blu a {
     color: #cbd6e2;
+    padding: 10px;
 }
 #blocco-blu a:hover {
-    color
+    color: #0091ae;
+}
+.footer-languages {
+width: 100%;
+background-color: #33475b;
+text-align: center;
+font-family: 'Source Sans Pro', sans-serif;
+color: #cbd6e2;
+font-size: 20px;
+padding-bottom: 50px;
+}
+.footer-languages ul li {
+    display: inline-block;
+}
+.footer-languages a {
+    color: #cbd6e2;
+    padding: 10px;
+
+}
+.footer-languages ul li a:link {
+    text-decoration: none;
+}
+.footer-languages a:hover {
+    color: #0091ae;
+}
+.footer-bottom {
+    width: 100%;
+    height: 300px;
+    background-color: #33475b;
+    border-top: 1px solid #7c98b6;
+    font-family: 'Source Sans Pro', sans-serif;
+    color: #cbd6e2;
+    float: left;
+}
+.footer-bottom .container {
+    width: 1000px;
+    margin: auto;
+
+}
+.footer-bottom .footer-logo {
+    padding-top: 30px;
+
+}
+.footer-bottom p {
+    color: #cbd6e2;
+    font-family: 'Source Sans Pro', sans-serif;
+    padding-top: 30px;
+}
+.privacy-policy span {
+    font-family: 'Source Sans Pro', sans-serif;
+    color: #cbd6e2;
+    font-size: 18px;
+    float: right;
+}
+.privacy-policy a {
+    color: #cbd6e2;
+    padding: 10px;
+
+}
+.privacy-policy a {
+    text-decoration: none;
+}
+.privacy-policy a:hover {
+    color: #0091ae;
+}
+.privacy-policy .container {
+    width: 1000px;
+    margin: auto;
+
 }
