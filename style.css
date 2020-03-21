@@ -316,15 +316,21 @@ font-size: 40px;
     float: left;
 }
 .customers-top-right {
-    width: 500px;
+    width: 600px;
     height: 200px;
-    background-color: orange;
-    float: right;
+float: right;
 }
+.customers-logo {
+    text-align: center;
+    padding: 20px;
+    display: inline-block;
+background-size: contain;
+}
+
+
 .customers-bottom {
     width: 100%;
     height: 400px;
-
     font-family: 'Source Sans Pro', sans-serif;
 }
 .customers-bottom h2 {
@@ -484,5 +490,4 @@ padding-bottom: 50px;
 .privacy-policy .container {
     width: 1000px;
     margin: auto;
-
 }
